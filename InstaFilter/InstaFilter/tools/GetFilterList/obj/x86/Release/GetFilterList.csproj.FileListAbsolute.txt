@@ -1,0 +1,10 @@
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\tools\GetFilterList\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\tools\GetFilterList\bin\Release\GetFilterList.exe
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\tools\GetFilterList\bin\Release\GetFilterList.pdb
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\tools\GetFilterList\obj\x86\Release\GetFilterList.exe
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\tools\GetFilterList\obj\x86\Release\GetFilterList.pdb
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\InstaFilter\tools\GetFilterList\bin\Release\GetFilterList.exe
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\InstaFilter\tools\GetFilterList\bin\Release\GetFilterList.pdb
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\InstaFilter\tools\GetFilterList\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\InstaFilter\tools\GetFilterList\obj\x86\Release\GetFilterList.exe
+C:\Users\Qbsuran Alang\Desktop\InstaFilter\InstaFilter\tools\GetFilterList\obj\x86\Release\GetFilterList.pdb
