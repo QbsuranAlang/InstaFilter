@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A53F7B2-D92D-43FE-A599-2C98734AD9E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InstaFilter</RootNamespace>
+    <AssemblyName>InstaFilter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>InstaFilter.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Emgu\emgucv-windows-universal-cuda 2.9.0.1922\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAP.Designer.cs">
+      <DependentUpon>CAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code.designer.cs">
+      <DependentUpon>Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customize Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customize Delete.Designer.cs">
+      <DependentUpon>Customize Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customize Save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customize Save.Designer.cs">
+      <DependentUpon>Customize Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customize.Designer.cs">
+      <DependentUpon>Customize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CV.cs" />
+    <Compile Include="dld.cs" />
+    <Compile Include="Histogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histogram.Designer.cs">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstaFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstaFilter.Designer.cs">
+      <DependentUpon>InstaFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operator.Designer.cs">
+      <DependentUpon>Operator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show.Designer.cs">
+      <DependentUpon>Show.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CAP.resx">
+      <DependentUpon>CAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code.resx">
+      <DependentUpon>Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customize Delete.resx">
+      <DependentUpon>Customize Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customize Save.resx">
+      <DependentUpon>Customize Save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customize.resx">
+      <DependentUpon>Customize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histogram.resx">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstaFilter.resx">
+      <DependentUpon>InstaFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operator.resx">
+      <DependentUpon>Operator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Show.resx">
+      <DependentUpon>Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\2_049.png" />
+    <None Include="Resources\customize.png" />
+    <None Include="Resources\subtract.png" />
+    <None Include="Resources\psnr.png" />
+    <None Include="Resources\addWeight.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\abs.png" />
+    <None Include="Resources\edit-clear.png" />
+    <None Include="Resources\camera_iphone.png" />
+    <None Include="Resources\document_save_as.png" />
+    <None Include="Resources\Image.png" />
+    <None Include="Resources\information-3.png" />
+    <None Include="Resources\application_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\arrow2_nw.png" />
+    <None Include="Resources\bstop.png" />
+    <None Include="Resources\graph.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\toggle.png" />
+    <None Include="Resources\night.png" />
+    <None Include="Resources\day.png" />
+    <None Include="Resources\arrow2_ne.png" />
+    <None Include="Resources\arrow2_n.png" />
+    <None Include="Resources\arrow1_n.png" />
+    <None Include="Resources\arrow1_s.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\equalizer.png" />
+    <None Include="Resources\arrow3_s.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\Save color.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

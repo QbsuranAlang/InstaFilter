@@ -1,0 +1,109 @@
+普通濾鏡：
+
+Aladin
+Amber
+Anne
+Antonio
+BayerBGGR
+BayerGBRG
+BayerGRBG
+BayerRGGB
+Bob
+熔鑄
+Channel A
+Channel B
+Channel G
+Channel H
+Channel R
+Channel S
+Channel V
+ColorMap Autumn
+ColorMap Bone
+ColorMap Cool
+ColorMap Hot
+ColorMap HSV
+ColorMap Jet
+ColorMap Ocean
+ColorMap Pink
+ColorMap Rainbow
+ColorMap Spring
+ColorMap Summer
+ColorMap Winter
+連環畫
+Dean
+浮雕
+水平翻轉
+垂直翻轉
+冰凍
+毛玻璃
+強光
+灰階 RGB除以三
+灰階
+Greg
+高反差保留
+負片
+Jinx 加強版
+Jinx
+Josh
+Karen
+雕刻
+懷舊
+移除透明圖層
+強調邊緣
+模糊邊緣
+交換藍紅頻道
+
+======================================
+特殊濾鏡：
+
+BayerBGGR to BGR
+BayerGBRG to BGR
+BayerGRGB to BGR
+BayerRGGB to BGR
+Channel B Image
+Channel G Image
+Channel R Image
+ColorMap 拼圖
+直方圖縮放
+備份影像
+
+======================================
+可調整式濾鏡：
+
+調整HSV
+調整RGB
+雙邊模糊
+二值化影像 雙門檻值
+二值化影像
+Black Hat
+模糊
+調整亮度和對比
+Canny
+Circle Blur
+Closing
+Color Dot
+凹透鏡
+Dilate
+Erode
+羽化
+高斯模糊
+拼圖
+Laplace
+凸透鏡
+中值模糊(去除雜訊)
+Morphological Gradient
+馬賽克
+自訂馬賽克區域
+增加雜訊
+Opening
+抽色
+Radio Blur
+素描
+Sobel
+Top Hat
+反銳化
+波浪
+風
+
+普通濾鏡：52，特殊濾鏡：10，可調整式濾鏡：34
+共：96
